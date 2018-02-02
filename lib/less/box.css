@@ -1,0 +1,36 @@
+.face-tabs--themes-box {
+  border: 1px solid #dcdfe6;
+}
+.face-tabs--themes-box > .face-tabs-bar {
+  color: #909399;
+  border-bottom: 1px solid #e4e7ed;
+  line-height: 2.5em;
+  background-color: #f5f7fa;
+}
+.face-tabs--themes-box > .face-tabs-bar .face-tabs-bar-nav-tab {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 2.5em;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  margin-left: -1px;
+}
+.face-tabs--themes-box > .face-tabs-bar .face-tabs-bar-nav-tab:first-child {
+  border-left-width: 0;
+  margin-left: 0;
+}
+.face-tabs--themes-box > .face-tabs-bar .face-tabs-bar-nav-tab:first-child:hover {
+  border-left-width: 0;
+}
+.face-tabs--themes-box > .face-tabs-bar .face-tabs-bar-nav-tab:hover,
+.face-tabs--themes-box > .face-tabs-bar .face-tabs-bar-nav-tab--on {
+  border-right: 1px solid #e4e7ed;
+  border-left: 1px solid #e4e7ed;
+  background-color: white;
+  color: #4387fd;
+  border-bottom: none;
+}
+.face-tabs--themes-box > .face-tabs-pane {
+  padding: 1em;
+}

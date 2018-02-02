@@ -1,0 +1,45 @@
+@import "./settings";
+.@{face-tabs-prefix} {
+
+}
+@import "./simple.less";
+@import "./card.less";
+@import "./box.less";
+
+.@{face-tabs-prefix}-bar-nav-tab {
+    cursor: pointer;
+    text-decoration: none;
+}
+.@{face-tabs-prefix}--themes-pane-compact {
+    &>.@{face-tabs-prefix}-pane {
+        padding: 0;
+    }
+}
+html .@{face-tabs-prefix} .@{face-tabs-prefix}-bar .@{face-tabs-prefix}-bar-nav-tab--icon {
+    padding-left: .5em;
+}
+.@{face-tabs-prefix}-bar-nav-tab-icon {
+    margin-right: .3em;
+}
+
+.@{face-tabs-prefix}-bar-nav-tab-remove {
+    font-weight: 300;
+    display: inline-block;
+    padding-left: .5em;
+    padding-right: .5em;
+    line-height: @face-tabs-bar-nav-tab-remove-lineHeight;
+    opacity: .6;
+    color: @face-tabs-text-color;
+   &:hover {
+       opacity: 1;
+       color: @face-tabs-danger-color;
+   }
+}
+.@{face-tabs-prefix} > .@{face-tabs-prefix}-bar .@{face-tabs-prefix}-bar-nav-tab--remove {
+    padding-right: 0;
+}
+.@{face-tabs-prefix}-bar-nav-tab:hover,
+.@{face-tabs-prefix}-bar-nav-tab--on {
+    color:@face-tabs-primary-color;
+    border-bottom: @face-tabs-bar-bottom-border-width solid @face-tabs-primary-color;
+}

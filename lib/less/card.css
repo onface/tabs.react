@@ -1,0 +1,32 @@
+.face-tabs--themes-card > .face-tabs-bar {
+  color: rgba(0, 0, 0, 0.65);
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 2.5em;
+}
+.face-tabs--themes-card > .face-tabs-bar .face-tabs-bar-nav-tab {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 2.5em;
+  border: 1px solid #e8e8e8;
+  border-bottom: none;
+  border-left-width: 0px;
+  background-color: #fafafa;
+}
+.face-tabs--themes-card > .face-tabs-bar .face-tabs-bar-nav-tab:first-child {
+  margin-left: 0;
+  border-left-width: 1px;
+  border-top-left-radius: .3em;
+}
+.face-tabs--themes-card > .face-tabs-bar .face-tabs-bar-nav-tab:last-child {
+  border-top-right-radius: .3em;
+}
+.face-tabs--themes-card > .face-tabs-bar .face-tabs-bar-nav-tab:hover,
+.face-tabs--themes-card > .face-tabs-bar .face-tabs-bar-nav-tab--on {
+  background-color: white;
+  color: #4387fd;
+}
+.face-tabs--themes-card > .face-tabs-pane {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
