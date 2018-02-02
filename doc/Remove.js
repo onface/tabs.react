@@ -13,17 +13,19 @@ class Demo extends React.Component {
         const self = this
         return (
             <Tabs
-                themes="box"
-                compact
                 value={self.state.value}
                 onChange={function (value) {
                     self.setState({value: value})
+                }}
+                onRemove={function (value) {
+                    console.log('remove', value)
                 }}
             >
                 <TabPane
                     icon={(<Icon type="github" />)}
                     tab="Github"
                     value="1"
+                    remove
                 >
                     Github . . .
                 </TabPane>
@@ -31,6 +33,7 @@ class Demo extends React.Component {
                     icon={(<Icon type="google" />)}
                     tab="Google"
                     value="2"
+                    remove
                 >
                     Google . . .
                 </TabPane>
@@ -38,6 +41,9 @@ class Demo extends React.Component {
                     icon={(<Icon type="facebook" />)}
                     tab="Facebook"
                     value="3"
+                    remove={(
+                        <Icon type="trash" />
+                    )}
                 >
                     Facebook . . .
                 </TabPane>

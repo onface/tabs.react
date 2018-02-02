@@ -18,6 +18,7 @@
     "$username": "onface",
     "$repository": "tabs.react",
     "dependencies": {
+        "classnames": "^2.2.5",
         "icon.react": "^0.1.0"
     },
     "devDependencies": {
