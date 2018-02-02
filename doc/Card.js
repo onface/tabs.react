@@ -2,7 +2,7 @@ var React = require('react')
 var Tabs = require('tabs.react')
 var Icon = require('icon.react')
 var TabPane = Tabs.TabPane
-class Basic extends React.Component {
+class Demo extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -13,6 +13,7 @@ class Basic extends React.Component {
         const self = this
         return (
             <Tabs
+                themes="card"
                 value={self.state.value}
                 onChange={function (value) {
                     self.setState({value: value})
@@ -43,5 +44,5 @@ class Basic extends React.Component {
         )
     }
 }
-/*ONFACE-DEL*/Basic = require("react-hot-loader").hot(module)(Basic)
-module.exports = Basic
+/*ONFACE-DEL*/Demo = require("react-hot-loader").hot(module)(Demo)
+module.exports = Demo

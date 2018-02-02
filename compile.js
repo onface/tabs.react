@@ -103,7 +103,6 @@ module.exports = {
 
     },
     alias: {
-        'vue': 'vue/dist/vue.js',
-        './index.css': './index.less'
+        'vue': 'vue/dist/vue.js'
     }
 }
