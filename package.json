@@ -1,7 +1,7 @@
 {
     "name": "tabs.react",
     "main": "lib/index.js",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "多种风格 Tabs React",
     "keywords": "",
     "scripts": {
